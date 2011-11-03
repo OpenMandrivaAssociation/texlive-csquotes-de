@@ -1,3 +1,9 @@
+# revision 23371
+# category Package
+# catalog-ctan /info/translations/csquotes/de
+# catalog-date 2011-05-30 20:16:57 +0200
+# catalog-license lppl
+# catalog-version 1.01
 Name:		texlive-csquotes-de
 Version:	1.01
 Release:	1
@@ -22,6 +28,7 @@ This is a translation of the documentation of csquotes version
 %doc %{_texmfdistdir}/doc/latex/csquotes-de/LIESMICH
 %doc %{_texmfdistdir}/doc/latex/csquotes-de/csquotes-DE.pdf
 %doc %{_texmfdistdir}/doc/latex/csquotes-de/csquotes-DE.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -32,3 +39,5 @@ This is a translation of the documentation of csquotes version
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
