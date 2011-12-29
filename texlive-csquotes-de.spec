@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/csquotes-de.doc.t
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 This is a translation of the documentation of csquotes version
@@ -28,7 +26,6 @@ This is a translation of the documentation of csquotes version
 %doc %{_texmfdistdir}/doc/latex/csquotes-de/LIESMICH
 %doc %{_texmfdistdir}/doc/latex/csquotes-de/csquotes-DE.pdf
 %doc %{_texmfdistdir}/doc/latex/csquotes-de/csquotes-DE.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -39,5 +36,3 @@ This is a translation of the documentation of csquotes version
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
