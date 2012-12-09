@@ -36,3 +36,17 @@ This is a translation of the documentation of csquotes version
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.01-2
++ Revision: 750659
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.01-1
++ Revision: 718174
+- texlive-csquotes-de
+- texlive-csquotes-de
+- texlive-csquotes-de
+- texlive-csquotes-de
+
