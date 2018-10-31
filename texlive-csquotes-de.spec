@@ -6,7 +6,7 @@
 # catalog-version 1.01
 Name:		texlive-csquotes-de
 Version:	1.01
-Release:	10
+Release:	11
 Summary:	German translation of csquotes documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/csquotes/de
