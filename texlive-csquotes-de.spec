@@ -1,6 +1,6 @@
 Name:		texlive-csquotes-de
 Version:	23371
-Release:	1
+Release:	2
 Summary:	German translation of csquotes documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/csquotes/de
