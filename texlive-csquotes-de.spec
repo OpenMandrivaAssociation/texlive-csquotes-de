@@ -3,7 +3,7 @@ Version:	23371
 Release:	2
 Summary:	German translation of csquotes documentation
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/translations/csquotes/de
+URL:		https://www.ctan.org/tex-archive/info/translations/csquotes/de
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/csquotes-de.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/csquotes-de.doc.r%{version}.tar.xz
